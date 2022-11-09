@@ -11,3 +11,6 @@ images:
 - name: clone-linkdln
   newName: marcosaureliofarias/thrower-back
   newTag: f6936866fb31f30e83c84bf460fa6b1de167c28f
+- name: clone-linkedln
+  newName: marcosaureliofarias/clone-linkedln
+  newTag: d85f3628ecd854fd7ee352c4051472927e0c67a0
