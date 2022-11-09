@@ -8,9 +8,6 @@ resources:
 namespace: clone-linkdln
 
 images:
-- name: clone-linkdln
-  newName: marcosaureliofarias/thrower-back
-  newTag: f6936866fb31f30e83c84bf460fa6b1de167c28f
 - name: clone-linkedln
   newName: marcosaureliofarias/clone-linkedln
   newTag: b97525d5efa06548859c8dd266c2341b3b043696
