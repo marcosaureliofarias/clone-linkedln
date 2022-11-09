@@ -10,4 +10,4 @@ namespace: clone-linkdln
 images:
 - name: clone-linkedln
   newName: marcosaureliofarias/clone-linkedln
-  newTag: b97525d5efa06548859c8dd266c2341b3b043696
+  newTag: cb589f112db97761345d33d519317e21fae25bec
