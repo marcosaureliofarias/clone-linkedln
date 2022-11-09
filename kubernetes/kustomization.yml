@@ -1,0 +1,13 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- deployment.yml
+- service.yml
+
+namespace: clone-linkdln
+
+images:
+- name: clone-linkdln
+  newName: marcosaureliofarias/thrower-back
+  newTag: f6936866fb31f30e83c84bf460fa6b1de167c28f

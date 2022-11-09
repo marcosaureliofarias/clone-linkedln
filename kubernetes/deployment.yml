@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clone-linkedln
+spec:
+  selector:
+    matchLabels:
+      app: clone-linkedln
+  template:
+    metadata:
+      labels:
+        app: clone-linkedln
+    spec:
+      containers:
+      - name: clone-linkedln
+        image: clone-linkedln
+        ports:
+        - containerPort: 80

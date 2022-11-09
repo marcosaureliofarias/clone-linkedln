@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name:  svc-clone-linkedln
+spec:
+  selector:
+    app:  clone-linkedln
+  type: NodePort
+  ports:
+  - name:  clone-linkedln
+    port:  80
+    nodePort:  30001
+  selector:
+    app: clone-linkedln
